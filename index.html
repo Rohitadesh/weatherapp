@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        .box{
+            height: 70%;
+            width:40%;
+            /* border: 1px solid black; */
+        }
+        .input{
+            height: 20%;
+            width:55%;
+            border: 1px solid black;
+        }
+        .flex{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box flex">
+        <h1 class="text">cityname:</h1>
+        <input type="text" class="input">
+        <button class="button">go</button>
+    </div>
+</body>
+</html>
